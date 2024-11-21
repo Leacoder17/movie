@@ -20,9 +20,7 @@ public class Movie {
         this.movieId = movieId;
     }
 
-    pulbic String
-
-    getMovieName(){
+    public String getMovieName(){
         return movieName;
     }
 
@@ -32,9 +30,8 @@ public class Movie {
 
     public String getLeadActor() {
         return leadActor;
-    }pulbic
-
-    void setLeadActor(String leadActor) {
+    }
+    public void setLeadActor(String leadActor) {
         this.leadActor = leadActor;
     }
 }
